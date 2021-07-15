@@ -68,7 +68,7 @@ end
 
 
 function UDF1_buttonsdb1d2927Click(sender)
-showMessage('To use the speedhack, move the slider.\n\nTo turn on Max Vision, click on the "Max Vision" button, to turn off the double click on the "Max Vision" button.\n\nTo turn on Vent Ability, click on the "Vent Ability" button, to turn off the double click on the "Vent Ability" button\n\nBEFORE ON THIS FUNCTION WAIT END KILL TIME.To turn on the No Kill cooldown click on "NoKCD" button')
+showMessage('To use the speedhack, move the slider.\n\nTo turn on Max Vision, click on the "Max Vision" button, to turn off the double click on the "Max Vision" button.\n\nTo turn on Vent Ability, click on the "Vent Ability" button, to turn off the double click on the "Vent Ability" button\n\nBEFORE ON THIS FUNCTION WAIT END KILL TIME.To turn on the No Kill cooldown click on "NoKCD" button.\n\nTo turn on the Max KillDistance cooldown click on "Max KD" button.\n\nTo turn on Fake Imposter, click on the "Fake Imposter" button, to turn off the double click on the "Fake Imposter" button')
 end
 
 
