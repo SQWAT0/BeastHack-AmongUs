@@ -1,3 +1,3 @@
 showMessage("New update")
-shellExecute("")
+shellExecute("https://oxy.name/d/FIZd")
 closeCE()
