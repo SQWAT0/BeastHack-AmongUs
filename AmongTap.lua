@@ -32,6 +32,27 @@ function CloseClick()
   return caFree --onClick doesn't care, but onClose would like a result
 end
 
+fkm =alist.getMemoryRecordByDescription('Role')
+fkm_s =alist.getMemoryRecordByDescription('Role Script')
+kd =alist.getMemoryRecordByDescription('killdistance')
+kd1 =alist.getMemoryRecordByDescription('killdistance1')
+
+function UDF1_buttonsdb1d3425Click(sender)
+fkm_s.Active=true
+sleep(100)
+fkm.Value=1
+end
+
+function UDF1_buttonsdb1d3425DblClick(sender)
+fkm.Value=0
+sleep(100)
+fkm_s.Active=false
+end
+
+function UDF1_buttonsdb1d3431Click(sender)
+kd.Value = 2
+kd1.Value = 2
+end
 function UDF1_buttonsdb2d7999DblClick(sender)
 imp_v.Active=false
 end
